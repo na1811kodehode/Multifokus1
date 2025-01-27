@@ -2,7 +2,7 @@
 
 ## Task 1: Temperature Converter (Multi-task)
 
-[![Temperature converter showcase](task1.png){:height="200px" width="200px"}](task1.png)
+[![Temperature converter showcase](task1.png)
 
 A simple web-based tool to convert between Fahrenheit, Celsius and Kelvin. Temperature conversion logic is handled on the server side using ASP.NET Core, with frontend interaction via HTML and Javascript.
 
@@ -29,7 +29,7 @@ A simple web-based tool to convert between Fahrenheit, Celsius and Kelvin. Tempe
 
 ## Task 2: Flower Carousel (Front-end focus)
 
-[![Temperature converter showcase](task2.png){:height="200px" width="200px"}](task2.png)
+[![Temperature converter showcase](task2.png)
 
 A web-based flower carousel that showcases different flowers with their details, including descriptions, fun facts and artistic interpretations using Bootstrap and some CSS for styling.
 
