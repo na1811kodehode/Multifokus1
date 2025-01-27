@@ -94,3 +94,9 @@ A simple web-based API that allows the creation and management of a sports team,
 3. **Task 2**:
     - Simply open `index.html` from the **Flower Carousel** folder in your browser to see the carousel in action
 
+---
+
+**README written with [DeepSeek AI](http://www.deepseek.com) assistance**
+
+
+
