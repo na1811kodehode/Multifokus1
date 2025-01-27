@@ -4,6 +4,9 @@
 
 A simple web-based tool to convert between Fahrenheit, Celsius and Kelvin. Temperature conversion logic is handled on the server side using ASP.NET Core, with frontend interaction via HTML and Javascript.
 
+[![Temperature converter showcase](./task1.png){:height="200px" width="200px"}](./task1.png)
+
+
 ## Features
 - 🔄 Convert between Fahrenheit, Celsius and Kelvin
 - 🛑 Input validation, including checks for absolute zero

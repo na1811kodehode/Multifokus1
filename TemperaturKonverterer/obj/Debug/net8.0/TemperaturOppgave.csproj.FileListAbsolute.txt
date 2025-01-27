@@ -58,3 +58,4 @@
 /home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/obj/Debug/net8.0/scopedcss/bundle/TemperaturOppgave.styles.css
 /home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/obj/Debug/net8.0/TemperaturOppgave.genruntimeconfig.cache
 /home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/obj/Debug/net8.0/ref/TemperaturOppgave.dll
+/home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/obj/Debug/net8.0/TemperaturOppgave.sourcelink.json
