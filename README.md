@@ -29,7 +29,7 @@ A simple web-based tool to convert between Fahrenheit, Celsius and Kelvin. Tempe
 
 ## Task 2: Flower Carousel (Front-end focus)
 
-[![Temperature converter showcase](task2.png)
+![Temperature converter showcase](task2.png)
 
 A web-based flower carousel that showcases different flowers with their details, including descriptions, fun facts and artistic interpretations using Bootstrap and some CSS for styling.
 
