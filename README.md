@@ -2,7 +2,7 @@
 
 ## Task 1: Temperature Converter (Multi-task)
 
-[![Temperature converter showcase](task1.png)
+![Temperature converter showcase](task1.png)
 
 A simple web-based tool to convert between Fahrenheit, Celsius and Kelvin. Temperature conversion logic is handled on the server side using ASP.NET Core, with frontend interaction via HTML and Javascript.
 
