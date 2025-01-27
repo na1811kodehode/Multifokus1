@@ -31,3 +31,4 @@
 /home/nasir/Pictures/JanuarInnlevering/FotballManager/obj/Debug/net8.0/FotballManager.MvcApplicationPartsAssemblyInfo.cs
 /home/nasir/Pictures/JanuarInnlevering/FotballManager/obj/Debug/net8.0/FotballM.E2AB1DFF.Up2Date
 /home/nasir/Pictures/JanuarInnlevering/FotballManager/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/home/nasir/Pictures/JanuarInnlevering/FotballManager/obj/Debug/net8.0/FotballManager.sourcelink.json
