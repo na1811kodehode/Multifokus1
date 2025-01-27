@@ -1,52 +1,92 @@
-# README
+# Multi-focus assignment 1
 
-## Oppgave 1: Temperaturkonverterer (Multi-Plattform Oppgave)
+## Task 1: Temperature Converter (Multi-task)
 
-### Beskrivelse
-I denne oppgaven bygde jeg en temperaturkonverterer som lar brukeren konvertere mellom Fahrenheit, Celsius og Kelvin. Brukeren kan skrive inn en temperaturverdi og spesifisere enheten å konvertere fra og til, som f.eks. Celsius til Fahrenheit, eller Kelvin til Fahrenheit. Programmet håndterer også feilmeldinger, for eksempel hvis brukeren oppgir ugyldig input eller en temperatur under absolutt null.
+A simple web-based tool to convert between Fahrenheit, Celsius and Kelvin. Temperature conversion logic is handled on the server side using ASP.NET Core, with frontend interaction via HTML and Javascript.
 
-### Løsning
-Backend-delen er utviklet ved hjelp av ASP.NET Core. Jeg lagde en API som godtar en temperaturverdi og de valgte enhetene for konvertering (fra og til). Hvis inputen er ugyldig eller under absolutt null, returnerer API-en en feilmelding.
+## Features
+- 🔄 Convert between Fahrenheit, Celsius and Kelvin
+- 🛑 Input validation, including checks for absolute zero
+- 💻 Responsive design with Bootstrap
+- 📱 Unit selection (Fahrenheit, Celsius, Kelvin)
 
-Frontend-delen bruker HTML og JavaScript. Brukeren kan skrive inn temperaturen, velge enhetene de vil konvertere fra og til, og deretter trykke på en knapp for å få konvertert verdien. Jeg brukte JavaScript til å sende dataene til backend og vise resultatet på skjermen.
+## Technical implementation:
 
-### Implementerte funksjoner:
-- Konvertering mellom Fahrenheit, Celsius og Kelvin i enhver kombinasjon.
-- Feilhåndtering for ugyldig input og temperatur under absolutt null.
-- Enkel og intuitiv frontend med Bootstrap for bedre brukeropplevelse.
+**Frontend**:
+- HTML5 form for input
+- Bootstrap for layout
 
----
+**Backend**:
+- ASP.NET Core handles conversion and validation
 
-## Oppgave 2: Blomsterkarusell og Kort (Front-End Fokus)
-
-### Beskrivelse
-Denne oppgaven fokuserte på frontend-utvikling ved bruk av HTML, CSS og Bootstrap. Målet var å lage en nettside som inneholder:
-1. En karusell som viser bilder av blomster.
-2. Kort som presenterer blomsterbilder med tilhørende beskrivelser, og som inneholder en interaktiv 3D-flippeffekt ved hover.
-
-### Funksjonalitet:
-- **Karusell**: Vist fem bilder av forskjellige blomster i en roterende karusell, med kontrollknapper for å navigere mellom bildene.
-- **Interaktive kort**: Blomstene er også presentert på kort som kan flips til baksiden ved hover, som viser en kort beskrivelse av hver blomst.
-
-### Løsning:
-Jeg brukte HTML for strukturen, CSS for styling, og JavaScript for å legge til dynamiske effekter som karusellen og flippeffekten. Bootstrap ble brukt for å gjøre siden responsiv og for å håndtere karusellens layout.
+**Interaction**:
+- Convert temperature with button click
+- Fetch conversion results via Javascript
 
 ---
 
-## Oppgave 3: Fotballag Manager (Back-End Fokus)
+## Task 2: Flower Carousel (Front-end focus)
 
-### Beskrivelse
-I denne oppgaven skulle jeg lage et backend-system for å administrere et fotballag og dets spillere. Funksjonalitet for å legge til, oppdatere og fjerne spillere ble implementert, samt muligheten til å vise spillerens informasjon.
+A web-based flower carousel that showcases different flowers with their details, including descriptions, fun facts and artistic interpretations using Bootstrap and some CSS for styling.
 
-### Løsning:
-Backend-systemet ble utviklet med ASP.NET Core. Jeg opprettet API-endepunkter for å håndtere CRUD-operasjoner på spillere og lag, samt en enkel datalagring for spillerne.
+## Features:
+- 🌼 A carousel featuring various flower cards (rose, tulip, sunflower, orchid)
+- 🖼️ Image and text content for each flower
+- ✨ Smooth transitions with Bootstrap carousel
+- 📱 Fully responsive design
 
-### Implementerte funksjoner:
-- Legge til spillere.
-- Oppdatere spillerinformasjon.
-- Slette spillere.
-- Hente spillernes informasjon etter ulike kriterier.
+## Technical implementation:
+
+**Frontend**:
+- HTML5 and Bootstrap for structure and styling
+- CSS for custom styling and layout
+
+**Functionality**:
+- Carousel slides through flower cards
+- Interactive front and back content for each flower
 
 ---
 
-Alle tre prosjektene fokuserte på å utvikle brukervennlige og responsive løsninger, med både frontend og backend som jobber sammen for å levere en helhetlig opplevelse for brukeren.
+## Task 3: Team Management API (Back-End focus)
+
+A simple web-based API that allows the creation and management of a sports team, including adding and updating players, deleting them and viewing player statistics. It also provides various features for retrieving and displaying team and player data using ASP.NET Core.
+
+## Features:
+- ⚙️ Create a team and add players
+- 📝 Update player information
+- ❌ Delete players from the team
+- 🔎 Search for players by ID or ranking
+- 📊 View team statistics such as average age, rank and player demographics
+- 🧑‍🤝‍🧑 Fully dynamic player management (add, update, remove)
+- 🖥️ Swagger UI for API interaction and testing (only in development)
+
+## Technical implementation:
+
+**Backend**:
+- ASP.NET Core for API setup and routing
+- In-memory data storage for team and player details
+- Swagger for API documentation and testing
+- OpenAPI for API specifications
+
+**Functionality**:
+- Create and manage a team with players
+- Add, update or delete players based on their ID
+- Search and filter player by rank or ID
+- Retrieve detailed statistics about the team, including age and ranking distributions
+
+---
+
+## Setup
+
+1. Clone the repository to your local machine
+2. **Task 1 & Task 3**:
+    - Open the project in your preferred IDE (e.g., Visual Studio Code)
+    - Run the backend using the following command:
+    ```bash
+    dotnet watch
+    ```
+    - This will launch the web applications for **Task 1** and **Task 3**, and you can interact with them through your browser
+
+3. **Task 2**:
+    - Simply open `index.html` from the **Flower Carousel** folder in your browser to see the carousel in action
+
