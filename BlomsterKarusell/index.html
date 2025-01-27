@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <title>Blomster karusell</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center bg-dark bg-gradient vh-100">
+        <div class="outer-container">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="20000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Card 1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Card 2"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Card 3"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Card 4"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="Card 5"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <!-- Rose card -->
+                    <div class="carousel-item active">
+                        <div class="card" id="rose-card">
+                            <div class="inner">
+                                <!-- Forside -->
+                                <div class="front">
+                                    <img src="./bilder/rose.jpg" class="card-img-top" alt="Bilde av rose">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Rose</h3>
+                                        <figure class="text-end">
+                                            <blockquote class="blockquote">
+                                                <p class="card-text">Romantisk, duftende, rød, elegant, symbol</p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer">
+                                                Isabella Hansen, poet og kunstner i <cite title="kursiv">Kunst &
+                                                    Kultur</cite>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div> <!-- Slutt forside div -->
+
+                                <!-- Bakside -->
+                                <div class="back">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Kjærlighetens Tidlaushet</h3>
+                                        <p class="card-text">Roser har vært symboler på kjærlighet og skjønnhet i
+                                            tusenvis av år. Den røde rosen representerer lidenskap, mens den hvite står
+                                            for uskyld. Rosens duft og farger har inspirert poeter og kunstnere gjennom
+                                            historien. I tillegg har rosen vært et viktig symbol i både religiøse og
+                                            kulturelle sammenhenger, og dens skjønnhet er tidløs.</p>
+                                        <hr style="border-top: 2px solid #8B0000;">
+                                        <p class="info-text"><em>Visste du at?</em> Roser ble brukt som betalingsmiddel
+                                            i det romerske imperiet. De ble også dyrket i de kongelige hagene til
+                                            keiserne, og i det gamle Roma var det vanlig å bruke roser i festligheter og
+                                            som en gave til viktige personer.</p>
+
+                                    </div>
+                                </div> <!-- Slutt bakside div -->
+                            </div> <!-- Slutt inner div -->
+                        </div>
+                    </div>
+
+                    <!-- Tulipan card -->
+                    <div class="carousel-item">
+                        <div class="card" id="tulipan-card">
+                            <div class="inner">
+                                <!-- Forside -->
+                                <div class="front">
+                                    <img src="./bilder/tulip.jpg" class="card-img-top" alt="Bilde av tulipan">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Tulipan</h3>
+                                        <figure class="text-end">
+                                            <blockquote class="blockquote">
+                                                <p class="card-text">Livlig, vår, fargerik, delikat, glatt</p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer">
+                                                Mats Johansen, landskapsdesigner i <cite title="kursiv">Hagen &
+                                                    Friluftsliv</cite>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div> <!-- Slutt forside div -->
+
+                                <!-- Bakside -->
+                                <div class="back">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Vårens Farger og Glede</h3>
+                                        <p class="card-text">Tulipaner har vært et symbol på vårens ankomst i flere
+                                            hundre år. Den røde tulipanen representerer kjærlighet, mens den gule står
+                                            for vennskap. Deres enkelhet og livlige farger har fascinert både
+                                            hageelskere og kunstnere. Tulipanen, som opprinnelig stammer fra Persia, har
+                                            gjennom tidene blitt et symbol på håp og fornyelse.</p>
+                                        <hr style="border-top: 2px solid #FF69B4;">
+                                        <p class="info-text"><em>Visste du at?</em> Tulipaner ble en gang solgt for
+                                            vanvittige priser under den berømte tulipanmanien på 1600-tallet i
+                                            Nederland. I løpet av denne økonomiske boblen kunne en enkelt tulipanløk
+                                            være verdt mer enn et hus!</p>
+                                    </div>
+                                </div> <!-- Slutt bakside div -->
+                            </div> <!-- Slutt inner div -->
+                        </div>
+                    </div>
+
+
+                    <!-- Solsikke card -->
+                    <div class="carousel-item">
+                        <div class="card" id="solsikke-card">
+                            <div class="inner">
+                                <!-- Forside -->
+                                <div class="front">
+                                    <img src="./bilder/solsikke.jpg" class="card-img-top" alt="Bilde av solsikke">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Solsikke</h3>
+                                        <figure class="text-end">
+                                            <blockquote class="blockquote">
+                                                <p class="card-text">Lys, høy, gul, munter, sommer</p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer">
+                                                Sofie Andersen, agronom i bladet <cite title="kursiv">Jordens
+                                                    Skatter</cite>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div> <!-- Slutt forside div -->
+
+                                <!-- Bakside -->
+                                <div class="back">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Solens Stråler i Blomst</h3>
+                                        <p class="card-text">Solsikker har lenge vært et symbol på solens varme og
+                                            livskraft. Den strålende gule fargen står for glede og lykke, og solsikken
+                                            er kjent for å følge solens bevegelse, noe som gir den et nesten magisk
+                                            preg. Denne blomstens optimistiske natur har gjort den til et populært valg
+                                            i både hager og kunst, og den er ofte forbundet med positiv energi og varme.
+                                        </p>
+                                        <hr style="border-top: 2px solid #FFA500;">
+                                        <p class="info-text"><em>Visste du at?</em> Solsikker ble opprinnelig dyrket i
+                                            Amerika av de innfødte amerikanerne, som brukte frøene til å lage mat og
+                                            olje. De ble senere introdusert til Europa på 1500-tallet og er nå en av de
+                                            mest populære blomstene i verden.</p>
+                                    </div>
+                                </div> <!-- Slutt bakside div -->
+                            </div> <!-- Slutt inner div -->
+                        </div>
+                    </div>
+
+
+                    <!-- Orkidè card -->
+                    <div class="carousel-item">
+                        <div class="card" id="orkide-card">
+                            <div class="inner">
+                                <!-- Forside -->
+                                <div class="front">
+                                    <img src="./bilder/orkide.jpg" class="card-img-top" alt="Bilde av orkidè">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Orkidé</h3>
+                                        <figure class="text-end">
+                                            <blockquote class="blockquote">
+                                                <p class="card-text">Ren, hvit, duftende, elegant, grasiøs</p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer">
+                                                Emilie Berg, florist i <cite title="kursiv">Naturens Eleganse</cite>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div> <!-- Slutt forside div -->
+
+                                <!-- Bakside -->
+                                <div class="back">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Eksotisk Eleganse og Raffinement</h3>
+                                        <p class="card-text">Orkidéer har lenge vært forbundet med eleganse og luksus.
+                                            Med sine unike former og farger symboliserer de kjærlighet, skjønnhet og
+                                            eksotisme, og har fascinert både samlere og kunstnere gjennom tidene.
+                                            Orkidéene har også blitt sett på som en kilde til inspirasjon for mange
+                                            kulturer, der de ofte representerer sjeldenhet og raffinement.
+                                        <p>
+                                            <hr style="border-top: 2px solid #8A2BE2;">
+                                        <p class="info-text"><em>Visste du at?</em> Orkidéer er en av de eldste og mest
+                                            varierte blomstene på planeten, med mer enn 25 000 forskjellige arter. De
+                                            ble opprinnelig dyrket i Kina og ble ansett som symboler på skjønnhet og
+                                            luksus i antikkens Kina og Europa.</p>
+
+                                    </div>
+                                </div> <!-- Slutt bakside div -->
+                            </div> <!-- Slutt inner div -->
+                        </div>
+                    </div>
+
+
+                    <!-- Lilje card -->
+                    <div class="carousel-item">
+                        <div class="card" id="lilje-card">
+                            <div class="inner">
+                                <div class="front">
+                                    <img src="./bilder/lilje.jpg" class="card-img-top" alt="Bilde av lilje">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Lilje</h3>
+                                        <figure class="text-end">
+                                            <blockquote class="blockquote">
+                                                <p class="card-text">Eksotisk, delikat, fargerik, tropisk, sjelden
+                                                </p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer">
+                                                Kjell Mørk, botaniker i <cite title="kursiv">Botanikkens
+                                                    Hemmeligheter</cite>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div> <!--Slutt forside div -->
+
+                                <!-- Bakside -->
+                                <div class="back">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Renhet og Lidenskap i Blomst</h3>
+                                        <p class="card-text">Liljer er kjent for sin tidløse skjønnhet og eleganse. Den
+                                            hvite liljen symboliserer renhet og uskyld, mens den oransje liljen står for
+                                            lidenskap. Med sine delikate blomster har liljen vært en kilde til
+                                            inspirasjon i kunst og litteratur. I tillegg har liljen vært brukt som et
+                                            symbol i mange kulturer, der den ofte representerer gjenfødelse og
+                                            fornyelse.
+                                        </p>
+                                        <hr style="border-top: 2px solid #4682B4;">
+                                        <p class="info-text"><em>Visste du at?</em> Liljer ble brukt i gammel egyptisk
+                                            medisin og ble ansett for å ha helbredende egenskaper. I dag brukes liljer
+                                            fortsatt i mange kulturer som et middel for å fremme ro og lindring av
+                                            stress.</p>
+                                    </div>
+                                </div> <!-- Slutt bakside div -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

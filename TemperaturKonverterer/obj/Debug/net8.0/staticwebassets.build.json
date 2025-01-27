@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "/qKzPVtcwCXQdGfszUOqd9F5pyHhKeC2hYKIQhiUMp4=",
+  "Source": "TemperaturOppgave",
+  "BasePath": "_content/TemperaturOppgave",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TemperaturOppgave/wwwroot",
+      "Source": "TemperaturOppgave",
+      "ContentRoot": "/home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/wwwroot/",
+      "BasePath": "_content/TemperaturOppgave",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/wwwroot/common.js",
+      "SourceId": "TemperaturOppgave",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/wwwroot/",
+      "BasePath": "_content/TemperaturOppgave",
+      "RelativePath": "common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/common.js"
+    },
+    {
+      "Identity": "/home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/wwwroot/index.html",
+      "SourceId": "TemperaturOppgave",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/nasir/Pictures/JanuarInnlevering/TemperaturKonverterer/wwwroot/",
+      "BasePath": "_content/TemperaturOppgave",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}

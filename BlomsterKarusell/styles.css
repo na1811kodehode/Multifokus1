@@ -1,0 +1,141 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hide scrollbar */
+body {
+    overflow: hidden;
+}
+
+/* Outer container that wraps around the card, scales upon hover */
+.outer-container {
+    display: inline-block;
+    transition: transform 0.5s ease; 
+}
+
+.outer-container:hover {
+    transform: scale(1.2);
+}
+
+/* Card container */
+.card {
+    height: 750px !important;
+    width: 30rem;
+    perspective: 1000px;
+}
+
+/* Inner div that contains the front- and backside. Handles the 3d flipping effect */
+.inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+/* Rotate cards inner div 180 degrees */
+.card:hover .inner {
+    transform: rotateY(180deg);
+}
+
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden; /* Hide the back side when flipped */
+}
+
+/* Flip the back side 180 degrees */
+.back {
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Move carousel buttons outside the carousel/card  */
+#carousel1 {
+    margin: 0 80px;
+}
+
+.carousel-control-prev {
+    margin-left: -80px;
+}
+
+.carousel-control-next {
+    margin-right: -80px;
+}
+
+
+/* Card coloring based on different flower themes */
+
+/* Rose card */
+#rose-card {
+    background-color: #B22222 !important;
+    color: #FFFFFF;
+}
+
+#rose-card figcaption {
+    color: #D3D3D3;
+}
+
+
+/* Tulipan card */
+#tulipan-card {
+    background-color: #FFB6C1;
+    color: #000000;
+}
+
+#tulipan-card figcaption {
+    color: #5e5c5c;
+}
+
+/* Solsikke card */
+#solsikke-card {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+#solsikke-card figcaption{
+    color:#686868;
+}
+
+/* Orkidè card */
+#orkide-card {
+    background-color: #9370DB;
+    color: #FFFFFF;
+}
+
+#orkide-card figcaption {
+    color: #c7c3c3;
+}
+
+
+/* Lilje card */
+#lilje-card {
+    background-color: #ADD8E6;
+    color: #000000;
+}
+
+#lilje-card figcaption {
+    color: #5c5b5b;
+}
+
+.info-text {
+    font-size: 0.7em;
+}
+
+em {
+    font-weight: 600;
+}
+
